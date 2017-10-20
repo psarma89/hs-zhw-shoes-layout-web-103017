@@ -24,4 +24,30 @@
 
 /* Posititoning Classes */
 
+.col-1 {
+  /* this column will span one-third */
+  width: 32%;
+}
 
+.col-2 {
+  /* this column will span two-thirds */
+  width: 66%;
+}
+
+.col-3 {
+  /* this column will span all the entire wrapper */
+}
+
+[class*="col-"] {
+  float: left;
+  margin-left: 2%;
+}
+
+.first {
+  margin-left: 0;
+}
+
+section {
+  padding: 20px;
+  margin-bottom: 20px;
+}
